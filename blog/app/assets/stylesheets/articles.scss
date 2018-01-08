@@ -1,0 +1,49 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table {
+    border: 1px solid black;
+    width: 50%;
+	
+}
+
+th{
+	font-family:Broadway;
+	font-size:20px;
+}
+td {
+	font-family:"Lucida Calligraphy";
+    height: 25px;
+    vertical-align: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+
+/* main heading */
+h1 {
+    text-align:center;
+    font-family:"Lucida Calligraphy";
+    font-weight:bold;
+    font-size:25px; 	
+    color:#EF8D24;
+}
+/* other headings */
+h3{
+    font-family:Broadway;
+    font-size:20px; 	
+}
+
+/* paragraph content */
+p {
+	font-size:15px;
+    padding:10px;
+    color:#2E4A88;
+	color:#3498DB;
+    font-family:"Bradley Hand ITC";
+    font-weight:bold;
+}
