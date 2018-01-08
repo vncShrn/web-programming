@@ -1,0 +1,22 @@
+#signup-response {
+	display: inline;
+	padding-left: 200px;
+}
+
+.response-waiting {
+	background: url("../lib_images/validation/loading.gif") no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.response-success {
+	background: url("../lib_images/validation/tick.png") no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}
+
+.response-error {
+	background: url("../lib_images/validation/cross.png") no-repeat;
+	padding-left: 20px;
+	background-position: left center;
+}

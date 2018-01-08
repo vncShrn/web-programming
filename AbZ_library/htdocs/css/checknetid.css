@@ -1,0 +1,16 @@
+#signup-response {
+	display: inline;
+	padding-left: 200px;
+}
+
+.response-waiting {
+	background: url("../images/loading.gif") no-repeat;
+}
+
+.response-success {
+	background: url("../images/tick.png") no-repeat;
+}
+
+.response-error {
+	background: url("../images/cross.png") no-repeat;
+}

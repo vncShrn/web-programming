@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Login | ABZ</title>
+
+<!-- javascript tags - start -->
+<script src="lib_js/jquery2.js"></script>
+<script src="lib_js/bootstrap.min.js"></script>
+<script src="lib_js/header.js"></script>
+<script src="lib_js/jquery-1.9.1.min.js"></script>
+<script src="lib_js/additional-methods.min.js"></script>
+<script src="lib_js/jquery.validate.min.js"></script>
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="lib_js/login.js"></script>
+<!-- javascript tags - end -->
+
+<!-- css tags - start -->
+<link href="lib_css/prettyPhoto.css" rel="stylesheet">
+<link href="lib_css/price-range.css" rel="stylesheet">
+<link href="lib_css/animate.css" rel="stylesheet">
+<link href="lib_css/responsive.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="stylesheet" href="lib_css/signup.css">
+<link href="lib_css/bootstrap.min.css" rel="stylesheet">
+<link href="lib_css/font-awesome.min.css" rel="stylesheet">
+<link href="lib_css/main.css" rel="stylesheet">
+<!-- css tags - end -->
+
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top"
+		style="position: relative" id="header"></div>
+
+	<div class="container" style="position: relative">
+		<section>
+			<div class="row">
+				<div class="col-md-8">
+
+					<h2 class="title text-center">LOGIN</h2>
+					<form class="form-horizontal" method="post" name="login" id="login"
+						enctype="multipart/form-data" action='checkUser.php'>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3">Enter Net-Id: <span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-12" id="netadd">
+								<div class="input-group">
+									<span class="input-group-addon"><i></i></span> <input type="text"
+										class="form-control" name="net_id" id="net_id"
+										placeholder="vxc152130" value="">
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3">Password <span
+								class="text-danger">*</span></label>
+							<div class="col-md-5 col-sm-12" id="passwordadd">
+								<div class="input-group">
+									<span class="input-group-addon"><i
+										class="glyphicon glyphicon-lock"></i></span> <input type="password"
+										class="form-control" name="password" id="password" value="">
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-xs-offset-3 col-xs-10">
+								<input type="submit" id="submit" value="LOGIN"
+									class="btn btn-primary">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-xs-offset-3 col-xs-10">
+								<p>
+									Don't have an account yet? <a class="login" href="signup.html">Signup
+										here</a>
+								</p>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="footer-bottom" id="footer"
+		style="bottom: 0; position: fixed; width: 100%;"></div>
+</body>
+</html>
